@@ -1,0 +1,16 @@
+.futurista{
+    background-image: url(imagenes/futurista.jpg);
+    height: 300vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Dra{
+    background-image: url(imagenes/morado.jpg);
+    height: 140vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
