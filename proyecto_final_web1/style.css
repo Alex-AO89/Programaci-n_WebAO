@@ -22,14 +22,6 @@
     background-size: cover;
 }
 
-.fondocuadros{
-    background-image: url(imagenes/cuadros.jpg);
-    height: 100vh;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
 .fondocolores{
     background-image: url(imagenes/colores.jpg);
     height: 110vh;
@@ -48,7 +40,7 @@
 
 .dragon{
     background-image: url(imagenes/dragones.jpg);
-    height: 100vh;
+    height: 150vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
