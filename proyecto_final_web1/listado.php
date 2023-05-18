@@ -6,11 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="shortcut icon" href="imagenes/dragonfavicon.png" type="image/x-icon">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styleDos.css">
     <title>Pagina Principal</title>
 
 </head>
-<body class="fondobosque">
+<body class="futurista">
     <?php
         $consulta_sql="SELECT * FROM usuarios";
 
@@ -26,6 +26,8 @@
                             <tr>
                                 <th>ID</th>
                                 <th>Nombre de Usuario</th>
+                                <th>Telefono</th>
+                                <th>Edad</th>
                                 <th>Email</th>
                                 <th>Contraseña</th>
                                 <th>Fecha de Registro</th>
@@ -39,6 +41,8 @@
                                 echo "<tr>";
                                 echo "<td>".$row['id']."</td>";
                                 echo "<td>".$row['nombre_usuario']."</td>";
+                                echo "<td>".$row['telefono']."</td>";
+                                echo "<td>".$row['edad']."</td>";
                                 echo "<td>".$row['email']."</td>";
                                 echo "<td>".$row['password']."</td>";
                                 echo "<td>".$row['fecha_registro']."</td>";
